@@ -1,0 +1,305 @@
+.theme-btn01{
+  background-color: #ffffff;
+    border-radius: 40px;
+    bottom: 230px;
+    color: #ffffff;
+    display: table;
+    height: 50px;
+    left: 10px;
+    min-width: 50px;
+    position: fixed;
+    text-align: center;
+  z-index: 9999;
+}
+.theme-btn01 i{
+  font-size: 22px;
+    line-height: 50px;
+}
+.theme-btn01.bt-support-now{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1ebbf0+8,39dfaa+100 */
+  background: #1ebbf0; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #1ebbf0 8%, #39dfaa 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #1ebbf0 8%,#39dfaa 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #1ebbf0 8%,#39dfaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ebbf0', endColorstr='#39dfaa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  bottom: 300px;
+      display: inline-block;
+}
+.theme-btn01.bt-buy-now{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1fdf61+0,88BA46+100 */
+  background: #1fdf61; /* Old browsers */
+  background: -moz-linear-gradient(top,  #A3D179 0%, #88BA46 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #A3D179 0%,#88BA46 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #A3D179 0%,#88BA46 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1fdf61', endColorstr='#88BA46',GradientType=0 ); /* IE6-9 */
+}
+.theme-btn01:hover{
+  color:#fff;
+  padding: 0 20px;
+}
+ .theme-btn01 span{
+  vertical-align: middle;
+    font-size: 16px;
+    letter-spacing: -15px;
+    opacity: 0;
+  line-height: 50px;
+  transition:all 0.5s;
+  -webkit-transition:all 0.5s;
+  -moz-transition:all 0.5s;
+  text-transform:uppercase;
+}
+.theme-btn01:hover span{
+  opacity:1;
+  letter-spacing: 1px;
+  padding-left:10px;
+}
+.at-expanding-share-button[data-position="bottom-left"]{
+  bottom: 130px !important;
+}
+
+#mybutton {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    z-index: 1001 !important;
+}
+
+.phone-section {
+    background: #015399;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.phone-section h3 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.phone-section input {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.phone {
+    border-radius: 9px;
+    height: 50px;
+}
+
+.btn-default {
+    padding: 4px 13px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn {
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+}
+
+.EnqForm {
+    position: absolute;
+    top: 120px;
+    background-color:#06affbab;
+    padding: 35px;
+    right: 100px;
+    width: 360px;
+    border-radius: 4px;
+    z-index: 1010;
+}
+
+.EnqForm .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 15px;
+    color: #fff;
+    box-shadow: none;
+}
+
+.EnqForm .form-control>option {
+    color: rgba(12, 144, 206, 0.8);
+}
+
+.EnqForm .dropdown .btn {
+    position: relative;
+    height: 40px;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 41px;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.loginFrom-btn {
+    margin-top: 20px;
+    background-color: #004565;
+    border-color: #004565;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.stateH2 {
+    font-size: 36px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.counterUp_wrapper__block,
+.bg-2 {
+    background-image: url(img/banner-counter.jpg);
+    background-position: center top;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    padding: 60px 0;
+}
+
+.counterUp_wrapper__block::before {
+    background: #025e8a;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.countup-text i {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    font-size: 35px;
+    height: 70px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    padding: 14px;
+    text-align: center;
+    width: 70px;
+}
+
+.footer .col-md-4 {
+    text-align: center;
+}
+
+.my-points{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .EnqForm {
+        position: inherit;
+        margin-top: 25px;
+        background-color: rgb(12, 144, 206);
+        width: auto;
+    }
+    .faq-sec {
+        padding: 50px 0px 50px 20px;
+    }
+    .stateH2 {
+        text-align: center;
+    }
+    .footer .col-md-4 {
+        text-align: left;
+    }
+    .info-intro-number {
+        text-align: center;
+        margin: 20px 0;
+        display: none;
+    }
+}
+
+.gallery {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: azure;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.container {
+    width: 60%;
+    margin: 2rem auto; 
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem; 
+  }
+  
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+  }
+  
+  .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 2;  */
+    /* grid-row: 1 / span 2; */
+  }
+  
+  .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 3 / span 2;  */
+    /* grid-row: 1 / span 2; */
+  }
+  
+  .gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 5 / span 4;
+    grid-row: 1 / span 5; */
+  }
+  
+  .gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 4;  */
+    /* grid-row: 3 / span 3; */
+  }
+  
